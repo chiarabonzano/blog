@@ -64,6 +64,10 @@ a:hover {
     font-style: italic;
 }
 
+a.cta-back-home:hover {
+    font-style: normal;
+}
+
 .main-content {
     display: inline-block;
     width: 100%;
@@ -93,10 +97,6 @@ h2 {
 p {
     margin: 0;
     padding-top: 10px;
-}
-
-a.blog-name {
-    text-decoration: none;
 }
 
 aside {
