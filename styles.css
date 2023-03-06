@@ -124,9 +124,14 @@ footer {
     position: relative;
     background-color: #ececec;
     top: 50px;
-    padding: 20px 0 20px 50px;
     width: 100%;
     height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    margin-left: 50px;
 }
 
 .card {
