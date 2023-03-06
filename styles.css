@@ -13,14 +13,15 @@ body, html {
 }
 
 header {
+    display: inline-block;
     width: 100%;
-    height: 100px;
+    height: auto ;
     border-bottom: 2px solid #000;
     margin-top: 10px;
 }
 
 .logo {
-    float: left;
+    display: inline-block;
 }
 
 .logo-img {
@@ -40,7 +41,9 @@ h1 {
 }
 
 .menu {
-    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
     margin-right: 50px;
     padding-top: 64px;
 }
@@ -71,6 +74,10 @@ a.cta-back-home:hover {
     font-style: normal;
 }
 
+.clear-float {
+    clear: boths;
+}
+
 .main-content {
     display: inline-block;
     width: 100%;
@@ -83,7 +90,7 @@ a.cta-back-home:hover {
 }
 
 .content-img {
-    max-width: 1290px;
+    width: 100%;
     height: auto;
     min-width: 500px;
 }
